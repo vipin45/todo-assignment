@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-import EventForm from "./EventForm";
-import EventList from "./Eventlist";
+import EventForm from "./components/EventForm";
+import EventList from "./components/Eventlist";
 
 function EventMain() {
   const [allEvnt, setAllEvent] = useState([]);
