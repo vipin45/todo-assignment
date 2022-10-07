@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 20px;
+}
+
+.left-section, .right-section {  
+  float: left;
+  width: 50%;
+  padding : 1%;
+  background-color: 009900;
+}
+.evnt-form-container input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.submit-btn {
+  background-color: #4CAF50; 
+}
+.delete {
+  background-color: #f44336;
+}
+.disabled {
+  background-color: #555555;
+  cursor: not-allowed;
+}
+
+@media (max-width: 800px) {
+  .evnt-form-container input {
+    margin: 10px 0;
+  }
+  
+  .evnt-form-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.evntFrmSctn {
+  width: 100%;
+  padding: 10px;
+}
+.list-container table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+.list-container table tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+.list-container table td, .list-container table th {
+  padding: 8px;
+}
+.list-container table tr .completed {
+  background-color: #6de372;
+}
+.list-container table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: palevioletred;
+  color: white;
+}
