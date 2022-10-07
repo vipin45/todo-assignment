@@ -1,4 +1,4 @@
-import EventMain from "./src/components/EventMain";
+import EventMain from "./src/EventMain";
 
 const App = () => {
   return <EventMain />
